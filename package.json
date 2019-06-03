@@ -1,0 +1,25 @@
+{
+  "name": "react_app",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@rails/webpacker": "^4.0.6",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.7.0",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^2.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "svg-sprite-loader": "^4.1.6",
+    "svgo-loader": "^2.2.0"
+  },
+  "devDependencies": {
+    "sass-loader": "*",
+    "webpack-dev-server": "^3.5.1"
+  }
+}
