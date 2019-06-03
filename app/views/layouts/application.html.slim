@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title> ReactApp
+    = csrf_meta_tags
+    = csp_meta_tag
+    = javascript_pack_tag 'railsApp/index'
+    = stylesheet_pack_tag 'railsApp/index_style'
+
+  body
+    = yield
